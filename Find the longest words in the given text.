@@ -1,0 +1,31 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main()
+{
+    string rr;
+    vector<string> ss;
+    while(cin>>rr)
+    {
+        ss.push_back(rr);
+    }
+    
+    if(ss.empty())
+        return -1;
+    auto N=ss[0].size();
+    for(auto &tmp:ss)
+    {
+        if(tmp.size()>N)
+        {
+            N=tmp.size();
+        }
+    }
+    for(auto &tmp:ss)
+    {
+        if(tmp.size()==N)
+        {
+            cout<<"\n"<<tmp;
+        }
+    }
+}
