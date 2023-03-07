@@ -1,0 +1,49 @@
+#include <iostream#include <iostream>
+using namespace std;
+int main ( )
+{
+	unsigned int m; //Müsbət tam ədəd elan edilir.
+	while(1+1==2)
+	{
+	cout<<" m = "; cin >>m;
+	switch (m)
+	{
+		//m dəyərindən asılı olaraq ayın adı göstərilir.
+		case 1 : cout<<" Yanvar \n"; break;
+		case 2 : cout<<" Fevral \n"; break;
+		case 3 : cout<<" Mart \n"; break;
+		case 4 : cout<<" Aprel \n"; break;
+		case 5 : cout<<" May \n"; break;
+		case 6 : cout<<" İyun \n"; break;
+		case 7 : cout<<" İyul \n"; break;
+		case 8 : cout<<" Avqust \n"; break;
+		case 9 : cout<<" Sentiyabr \n"; break;
+		case 10 : cout<<" Oktyabr \n"; break;
+		case 11 : cout<<" Noyabr \n"; break;
+		case 12 : cout<<" Dekabr \n"; break;
+		//Əgər m dəyişəninin qiyməti əhatə dairəsindən kənardırsa
+        //Qəbul edilən dəyərlər, sonra mesaj verilir.
+        case 0: m=m-1 ;break;
+		default : cout<<" ERROR! \n "; break;
+	}
+	 if (m>100)
+	 break;
+	}
+return 0;
+}
+		case 7 : cout<<" İyul \n"; break;
+		case 8 : cout<<" Avqust \n"; break;
+		case 9 : cout<<" Sentiyabr \n"; break;
+		case 10 : cout<<" Oktyabr \n"; break;
+		case 11 : cout<<" Noyabr \n"; break;
+		case 12 : cout<<" Dekabr \n"; break;
+		//Əgər m dəyişəninin qiyməti əhatə dairəsindən kənardırsa
+        //Qəbul edilən dəyərlər, sonra mesaj verilir.
+        case 0: m=m-1 ;break;
+		default : cout<<" ERROR! \n "; break;
+	}
+	 if (m>100)
+	 break;
+	}
+return 0;
+}
